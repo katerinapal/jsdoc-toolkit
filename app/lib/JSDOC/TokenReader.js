@@ -1,3 +1,9 @@
+var xml;
+var regex;
+var string;
+var name;
+var found;
+var JSDOC;
 if (typeof JSDOC == "undefined") JSDOC = {};
 
 /**

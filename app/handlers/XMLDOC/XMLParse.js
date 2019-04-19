@@ -1,3 +1,8 @@
+var htmlParsed;
+var src;
+var A;
+import { LOG } from "..\\..\\run.js";
+import { XMLDOC } from "..\\XMLDOC.js";
 LOG.inform("XMLDOC.Parser loaded");
 
 /**

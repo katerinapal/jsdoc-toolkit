@@ -1,3 +1,6 @@
+var FOODOC;
+import { LOG } from "..\\run.js";
+import { JSDOC } from "..\\lib\\JSDOC\\DocComment.js";
 /**
    This is the main container for the FOODOC handler.
    @namespace

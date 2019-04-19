@@ -1,3 +1,4 @@
+import { TestDoc } from ".\\TestDoc.js";
 // try: java -jar ../../jsrun.jar runner.js
 
 load("TestDoc.js");

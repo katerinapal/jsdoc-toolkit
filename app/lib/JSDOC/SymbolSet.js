@@ -1,3 +1,12 @@
+var container;
+var borrowAsAlias;
+var joiner;
+var borrowAsName;
+var p;
+import { LOG } from "..\\..\\run.js";
+import { JSDOC } from ".\\DocComment.js";
+import { Hash } from "..\\..\\frame\\Hash.js";
+import { isUnique } from "..\\..\\frame.js";
 /** @constructor */
 JSDOC.SymbolSet = function() {
 	this.init();

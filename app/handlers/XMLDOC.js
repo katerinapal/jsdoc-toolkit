@@ -1,3 +1,6 @@
+var XMLDOC;
+import { IO } from "..\\run.js";
+export var XMLDOC;
 /**
  * This is the main container for the XMLDOC handler.
  * @namespace

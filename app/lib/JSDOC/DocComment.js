@@ -1,10 +1,13 @@
+var comment;
+var JSDOC;
+export var JSDOC;
 if (typeof JSDOC == "undefined") JSDOC = {};
 
 /**
 	Create a new DocComment. This takes a raw documentation comment,
 	and wraps it in useful accessors.
 	@class Represents a documentation comment object.
- */ 
+ */
 JSDOC.DocComment = function(/**String*/comment) {
 	this.init();
 	if (typeof comment != "undefined") {

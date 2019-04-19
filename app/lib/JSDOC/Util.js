@@ -1,3 +1,5 @@
+import { LOG } from "..\\..\\run.js";
+import { JSDOC } from ".\\DocComment.js";
 /**
  * @namespace
  * @deprecated Use {@link FilePath} instead.

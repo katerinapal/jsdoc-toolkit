@@ -1,3 +1,7 @@
+var value;
+var name;
+var arg;
+var Opt;
 /** @namespace */
 Opt = {
 	/**

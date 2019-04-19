@@ -1,3 +1,5 @@
+import { JSDOC } from ".\\DocComment.js";
+import { defined } from "..\\..\\frame.js";
 /**
 	@namespace Holds functionality related to running plugins.
 */

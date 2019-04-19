@@ -1,3 +1,4 @@
+import { JSDOC } from ".\\DocComment.js";
 /**
 	@namespace
 */

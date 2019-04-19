@@ -1,3 +1,11 @@
+var depth;
+var start;
+var started;
+var token;
+var stop;
+var howMany;
+var n;
+var JSDOC;
 if (typeof JSDOC == "undefined") JSDOC = {};
 
 /**

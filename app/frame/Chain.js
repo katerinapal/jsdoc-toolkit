@@ -1,3 +1,6 @@
+var result;
+var string;
+var i;
 /**@constructor*/
 function ChainNode(object, link) {
 	this.value = object;

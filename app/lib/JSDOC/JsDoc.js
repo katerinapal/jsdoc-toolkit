@@ -1,3 +1,8 @@
+var ext;
+import { IO } from "..\\..\\run.js";
+import { LOG } from "..\\..\\run.js";
+import { JSDOC } from ".\\DocComment.js";
+import { defined } from "..\\..\\frame.js";
 /**
 	@constructor
 	@param [opt] Used to override the commandline options. Useful for testing.

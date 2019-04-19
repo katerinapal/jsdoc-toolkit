@@ -1,3 +1,8 @@
+var look;
+import { LOG } from "..\\..\\run.js";
+import { JSDOC } from "..\\..\\lib\\JSDOC\\DocComment.js";
+import { XMLDOC } from "..\\XMLDOC.js";
+import { defined } from "..\\..\\frame.js";
 LOG.inform("XMLDOC.DomReader loaded");
 
 XMLDOC.DomReader = function(root) {

@@ -1,3 +1,6 @@
+var obj;
+var out;
+export var Dumper;
 /**
  * @class
 <pre>

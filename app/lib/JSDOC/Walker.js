@@ -1,3 +1,12 @@
+var parent;
+var isInner;
+var params;
+var name;
+var doc;
+var symbol;
+var n;
+var JSDOC;
+import { LOG } from "..\\..\\run.js";
 if (typeof JSDOC == "undefined") JSDOC = {};
 
 /** @constructor */

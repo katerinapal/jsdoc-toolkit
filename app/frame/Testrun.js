@@ -1,3 +1,9 @@
+var t;
+var like;
+export var is;
+var result;
+var ok;
+
 /**
  * @fileOverview
  * @name JsTestrun
@@ -7,13 +13,13 @@
  * @license <a href="http://en.wikipedia.org/wiki/MIT_License">X11/MIT License</a>
  *          (See the accompanying README file for full details.)
  */
- 
+
 /**
 	Yet another unit testing tool for JavaScript.
 	@author Michael Mathews <a href="mailto:micmath@gmail.com">micmath@gmail.com</a>
 	@param {object} testCases Properties are testcase names, values are functions to execute as tests.
 */
-function testrun(testCases) {
+export function testrun(testCases) {
 	var ran = 0;
 	for (t in testCases) {
 		var result = testCases[t]();

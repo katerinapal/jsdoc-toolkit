@@ -1,3 +1,7 @@
+var src;
+var JSDOC;
+import { LOG } from "..\\..\\run.js";
+export var JSDOC;
 if (typeof JSDOC == "undefined") JSDOC = {};
 
 /**

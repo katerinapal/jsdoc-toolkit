@@ -1,3 +1,8 @@
+var p;
+var srcFile;
+var JSDOC;
+import { print } from "..\\..\\t\\TestDoc.js";
+import { LOG } from "..\\..\\run.js";
 if (typeof JSDOC == "undefined") JSDOC = {};
 
 /**

@@ -1,5 +1,20 @@
+var str;
+var name;
+var b;
+var a;
+var fileindexTemplate;
+var allFiles;
+var classesindexTemplate;
+var output;
+import { print } from "..\\..\\app\\t\\TestDoc.js";
+import { IO } from "..\\..\\app\\run.js";
+import { SYS } from "..\\..\\app\\run.js";
+import { JSDOC } from "..\\..\\app\\lib\\JSDOC\\DocComment.js";
+import { defined } from "..\\..\\app\\frame.js";
+import { Link } from "..\\..\\app\\frame\\Link.js";
+
 /** Called automatically by JsDoc Toolkit. */
-function publish(symbolSet) {
+export function publish(symbolSet) {
 	publish.conf = {  // trailing slash expected for dirs
 		ext:         ".html",
 		outDir:      JSDOC.opt.d || SYS.pwd+"../out/jsdoc/",
@@ -56,12 +71,12 @@ function publish(symbolSet) {
 	
 	// create each of the class pages
 	for (var i = 0, l = classes.length; i < l; i++) {
-		var symbol = classes[i];
-		var output = "";
-		output = classTemplate.process(symbol);
-		
-		IO.saveFile(publish.conf.outDir+"symbols/", symbol.alias+publish.conf.ext, output);
-	}
+        var symbol = classes[i];
+        export var output = "";
+        output = classTemplate.process(symbol);
+
+        IO.saveFile(publish.conf.outDir+"symbols/", symbol.alias+publish.conf.ext, output);
+    }
 	
 	// regenerate the index with different relative links, used in the index pages
 	Link.base = "";

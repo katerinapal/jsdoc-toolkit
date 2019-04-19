@@ -1,3 +1,4 @@
+import { JSDOC } from "..\\lib\\JSDOC\\DocComment.js";
 JSDOC.PluginManager.registerPlugin(
 	"JSDOC.symbolLink",
 	{

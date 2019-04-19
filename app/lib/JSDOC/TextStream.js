@@ -1,4 +1,8 @@
 
+var pulled;
+var n;
+var text;
+import { JSDOC } from ".\\DocComment.js";
 /**
 	@constructor
 */

@@ -1,3 +1,6 @@
+var insert;
+var desc;
+import { JSDOC } from "..\\lib\\JSDOC\\DocComment.js";
 JSDOC.PluginManager.registerPlugin(
 	"JSDOC.frameworkPrototype",
 	{

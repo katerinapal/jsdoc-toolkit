@@ -1,3 +1,5 @@
+import { LOG } from "..\\..\\run.js";
+import { XMLDOC } from "..\\XMLDOC.js";
 LOG.inform("XMLDOC.symbolize loaded");
 
 /**

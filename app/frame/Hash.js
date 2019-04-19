@@ -11,12 +11,12 @@
 	}
 	
  */
-var Hash = function() {
+export var Hash = function() {
 	this._map = {};
 	this._keys = [];
 	this._vals = [];
 	this.reset();
-}
+};
 
 Hash.prototype.set = function(k, v) {
 	if (k != "") {

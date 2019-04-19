@@ -1,3 +1,8 @@
+var code;
+import { output } from "..\\..\\..\\templates\\jsdoc\\publish.js";
+import { print } from "..\\..\\t\\TestDoc.js";
+import { IO } from "..\\..\\run.js";
+import { JSDOC } from ".\\DocComment.js";
 /**
 	@constructor
 */

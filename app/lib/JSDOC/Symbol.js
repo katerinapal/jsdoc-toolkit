@@ -1,3 +1,12 @@
+var joiner;
+var inAs;
+var inAlias;
+var thisProperties;
+var n;
+var out;
+var keys;
+var JSDOC;
+import { Dumper } from "..\\..\\frame\\Dumper.js";
 if (typeof JSDOC == "undefined") JSDOC = {};
 
 /**

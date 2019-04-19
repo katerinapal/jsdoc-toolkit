@@ -1,7 +1,15 @@
+var linkPath;
+var linker;
+var linkString;
+import { JSDOC } from "..\\lib\\JSDOC\\DocComment.js";
+import { publish } from "..\\..\\templates\\jsdoc\\publish.js";
+import { FilePath } from "..\\run.js";
+import { defined } from "..\\frame.js";
+
 /** Handle the creation of HTML links to documented symbols.
 	@constructor
 */
-function Link() {
+export function Link() {
 	this.alias = "";
 	this.src = "";
 	this.file = "";

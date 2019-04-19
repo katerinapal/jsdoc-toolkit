@@ -1,3 +1,4 @@
+var str;
 /**
 	@name String
 	@class Additions to the core string object.

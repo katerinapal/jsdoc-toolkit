@@ -1,3 +1,4 @@
+var src;
 /**@constructor*/
 function Reflection(obj) {
 	this.obj = obj;

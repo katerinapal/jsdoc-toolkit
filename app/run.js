@@ -1,3 +1,18 @@
+var file;
+var dir;
+var recurse;
+var make;
+var path;
+var fileName;
+var IO;
+var SYS;
+var msg;
+var LOG;
+import { print } from ".\\t\\TestDoc.js";
+import { main } from ".\\main.js";
+export var SYS;
+export var LOG;
+export var IO;
 /**
  * @fileOverview
  * A bootstrap script that creates some basic required objects
@@ -32,7 +47,7 @@ LOG.out = undefined;
 /**
  *	@class Manipulate a filepath.
  */
-function FilePath(absPath, separator) {
+export function FilePath(absPath, separator) {
 	this.slash =  separator || "/"; 
 	this.root = this.slash;
 	this.path = [];

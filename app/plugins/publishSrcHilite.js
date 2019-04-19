@@ -1,3 +1,8 @@
+var hilited;
+var charset;
+import { print } from "..\\t\\TestDoc.js";
+import { IO } from "..\\run.js";
+import { JSDOC } from "..\\lib\\JSDOC\\DocComment.js";
 JSDOC.PluginManager.registerPlugin(
 	"JSDOC.publishSrcHilite",
 	{

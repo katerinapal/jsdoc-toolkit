@@ -1,8 +1,15 @@
+import { print } from ".\\t\\TestDoc.js";
+import { IO } from ".\\run.js";
+import { SYS } from ".\\run.js";
+import { LOG } from ".\\run.js";
+import { JSDOC } from ".\\lib\\JSDOC\\DocComment.js";
+import { publish } from "..\\templates\\jsdoc\\publish.js";
+
 /**
  * @version $Id$
  */
 
-function main() {
+export function main() {
 	IO.include("lib/JSDOC.js");
 	IO.includeDir("plugins/");
 	

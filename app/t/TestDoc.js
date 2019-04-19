@@ -1,4 +1,10 @@
-var TestDoc = {
+var httpRequest;
+var message;
+var print;
+import { readFile } from "..\\run.js";
+export var print;
+
+export var TestDoc = {
 	fails: 0,
 	plans: 0,
 	passes: 0,

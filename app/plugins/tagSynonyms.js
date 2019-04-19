@@ -1,3 +1,6 @@
+var syn;
+import { JSDOC } from "..\\lib\\JSDOC\\DocComment.js";
+import { Namespace } from "..\\frame\\Namespace.js";
 JSDOC.PluginManager.registerPlugin(
 	"JSDOC.tagSynonyms",
 	{

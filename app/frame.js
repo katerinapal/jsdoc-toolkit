@@ -1,14 +1,16 @@
+import { IO } from ".\\run.js";
 IO.include("frame/Opt.js");
 IO.include("frame/Chain.js");
 IO.include("frame/Link.js");
 IO.include("frame/String.js");
 IO.include("frame/Hash.js");
 IO.include("frame/Namespace.js");
+
 //IO.include("frame/Reflection.js");
 
 /** A few helper functions to make life a little easier. */
 
-function defined(o) {
+export function defined(o) {
 	return (o !== undefined);
 }
 
@@ -19,7 +21,7 @@ function copy(o) { // todo check for circular refs
 	return c;
 }
 
-function isUnique(arr) {
+export function isUnique(arr) {
 	var l = arr.length;
 	for(var i = 0; i < l; i++ ) {
 		if (arr.lastIndexOf(arr[i]) > i) return false;

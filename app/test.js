@@ -1,3 +1,9 @@
+var symbols;
+import { print } from ".\\t\\TestDoc.js";
+import { SYS } from ".\\run.js";
+import { JSDOC } from ".\\lib\\JSDOC\\DocComment.js";
+import { is } from ".\\frame\\Testrun.js";
+import { testrun } from ".\\frame\\Testrun.js";
 load("app/frame/Dumper.js");
 function symbolize(opt) {
 	symbols = null;
